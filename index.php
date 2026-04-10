@@ -44,18 +44,7 @@ $resultat = $pdo->query($sql_liste);
     <meta charset="utf-8">
     <title>TP BTS SIO - Todo Liste</title>
     <link rel="stylesheet" href="style.css">
-    
-    <script>
-        // JavaScript 
-        function verifier() {
-            var t = document.getElementById("titre").value;
-            if (t.trim() == "") {
-                alert("Erreur : Le titre est obligatoire !");
-                return false;
-            }
-            return true;
-        }
-    </script>
+    <script src="script.js"></script>
 </head>
 <body>
 
